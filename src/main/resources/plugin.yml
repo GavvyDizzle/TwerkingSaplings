@@ -8,3 +8,4 @@ commands:
   twerkingsaplings:
     description: Used to reload the config.yml file
     usage: "Usage: /<command> reload"
+    permission: twerkingsaplings.reload
