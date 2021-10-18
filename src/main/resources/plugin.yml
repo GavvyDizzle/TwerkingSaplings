@@ -1,0 +1,10 @@
+name: TwerkingSaplings
+version: '${project.version}'
+main: gavvydizzle.twerkingsaplings.TwerkingSaplings
+api-version: 1.17
+authors: [ GavvyDizzle ]
+description: Allows crouching to speed up tree growth
+commands:
+  twerkingsaplings:
+    description: Used to reload the config.yml file
+    usage: "Usage: /<command> reload"

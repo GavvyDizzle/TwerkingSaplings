@@ -1,0 +1,22 @@
+# Configuration File for Twerking Saplings
+# ========================================
+# vertical-distance - height of the affected area
+# y-offset - blocks the region is offset in the y-axis
+# horizontal-distance - If the value is 3, the area affected will be a 3x3 grid where the player is the center
+#   - Use odd values
+# crouches - The average number of crouches needed to grow each sapling
+# saplings - list of saplings that are affected
+
+vertical-distance: 1
+y-offset: 0
+horizontal-distance: 3
+crouches: 50
+saplings:
+  - 'OAK_SAPLING'
+  - 'BIRCH_SAPLING'
+  - 'SPRUCE_SAPLING'
+  - 'DARK_OAK_SAPLING'
+  - 'ACACIA_SAPLING'
+  - 'JUNGLE_SAPLING'
+  - 'CRIMSON_FUNGUS'
+  - 'WARPED_FUNGUS'
