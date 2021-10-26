@@ -39,7 +39,7 @@ public final class TwerkingSaplings extends JavaPlugin {
         getConfig().options().copyDefaults(true);
         saveConfig();
 
-        HandlerList.unregisterAll();
+        HandlerList.unregisterAll(this);
         getServer().getPluginManager().registerEvents(new PlayerCrouchEvent(), this);
     }
 }
